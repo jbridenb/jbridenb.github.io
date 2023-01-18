@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<!-- !DOCTYPE html tells browser this is using HTML5 -->
-<!-- EXAMPLE CODE HEADER/DISCLAIMER
- 
-Project:  Project1-About Me
-Name: Jacob Bridenbaugh
-Submitted: 8/26/21
+
+<!--  
+  Project:  Project1-About Me
+  Name: Jacob Bridenbaugh
+  Submitted: 1/17/23
  
 I declare that the following source code was written by me, or provided
 by the instructor for this project. I understand that copying source
@@ -14,21 +13,12 @@ I acknowledge that  If I am found in violation of this policy this may result
 in a zero grade, a permanent record on file and possibly immediate failure of the class.
  
 Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had trouble with blah blah blah.  
- 
--->
+ -->
 <html>
-<!-- Project 1/2 Layout Starter Page -->
-<!-- WARNING-Please do not copy/paste any of this code.  You may utilize the concepts here 
-but I don't want to see a bunch of assignments with the exact layout, class names etc.  
-Type every line of code yourself!  Change the names, be creative, make the assignment your own!
-
-TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format your document with proper indents etc.
+<!--TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format your document with proper indents etc.
 -->
 
 <head>
-  <!--  This is the 'head' tag, DON'T confuse with 'header'.  This tag does not get rendered and
-	should not contain any of your page content.  It just includes CSS/JS and the 'title' displayed on the
-	browser tab-->
   <title>About Jacob Bridenbaugh</title>
   <style>
     #myfoot {
@@ -42,18 +32,12 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 <body>
 
   <main>
-    <!--  I normally put header and footer outside of 'main', but in this
-		case when I'm centering it all, placing inside 'main' makes sense
-		-->
     <header>
       <h1>Jacob Bridenbaugh</h1>
     </header>
     <hr>
-    <!-- example of image.  mine is too big, you might need to set height/width attributes to fix-->
     <img src="moto.jpg">
-
-    <!-- (Project2)When repeating your sections,  create a class for each one and style each section through that class -->
-    <section class='res-section'>
+    <section>
       <h2>Personal Info</h2>
       <ul>
         <li><strong>Major:</strong> Computer Science</li>
@@ -63,18 +47,20 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
       </ul>
     </section>
 
-    <section class='res-section'>
+    <section>
       <h2>Five Favorite Fantasy Series</h2>
       <ol>
-        <li><em>The Wheel of Time Series, </em><a href="https://us.macmillan.com/author/robertjordan/">Robert Jordan</a> and <a href="https://www.brandonsanderson.com/">Brandon Sanderson</a></li>
+        <li><em>The Wheel of Time Series, </em><a href="https://us.macmillan.com/author/robertjordan/">Robert Jordan</a>
+          and <a href="https://www.brandonsanderson.com/">Brandon Sanderson</a></li>
         <li><em>The Old Kingdom, </em><a href="https://garthnix.com/">Garth Nix</a></li>
         <li><em>Cradle, </em><a href="https://www.willwight.com/">Will Wight</a></li>
-        <li><em>The Obsidian Mountain Trilogy, </em><a href="https://www.penguinrandomhouse.com/authors/240764/mercedes-lackey/">Mercedes Lackey</a> and <a href="https://www.goodreads.com/author/show/8686.James_Mallory">James Mallory</a></li>
-        <li><em>The Empire of Man, </em><a href="https://davidweber.net/">David Weber</a> with <a href="https://www.simonandschuster.com/authors/John-Ringo/1875432">Johny Ringo</a></li>
+        <li><em>The Obsidian Mountain Trilogy, </em><a
+            href="https://www.penguinrandomhouse.com/authors/240764/mercedes-lackey/">Mercedes Lackey</a> and <a
+            href="https://www.goodreads.com/author/show/8686.James_Mallory">James Mallory</a></li>
+        <li><em>The Empire of Man, </em><a href="https://davidweber.net/">David Weber</a> with <a
+            href="https://www.simonandschuster.com/authors/John-Ringo/1875432">Johny Ringo</a></li>
       </ol>
     </section>
-
-
 
     <section>
       <h2>Haiku</h2>
@@ -86,25 +72,31 @@ TRICK:  select all text in this file, 'Ctrl-A', then use 'Alt-Shift-f' to format
 
     <section>
       <h2>My Personal Interests</h2>
-
+      <p>I like Mountain Biking. I started when i was around 12 and haven't put it down since. I recently decided to buy a motorcycle this last year and have been just about addicted to riding that as I am to riding my Mountain Bike</p>
+      <p>In addition another hobby of mine is reading. You probably noticed that I changed the title for the section about books to be series instead. That's because it's too hard for me to decide on individual books. When looking at a story i prefer to look at it as a whole.</p>
+      <p>I currently work as a data analyst. I spend most of my days coding in SQL and developing reports for the company I work for. I really enjoy this but still want to move into a Full Stack developer postion.</p>
     </section>
+
     <section>
       <h2>Class Schedule</h2>
+      <table border="1">
+        <thead>
+        <tr>
+          
+          <th></th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>8:30</tr>
+        <tr>9:00</tr>
+      </tbody>
+      </table>
     </section>
-
-    <!-- the 'footer' tag below is an example of a 'semantic tag'.
-    These tags are the same as a 'div' block element but give context
-    to the reader of the file.
-    Other such tags are: main, header, section, article, details, summary, figure
-    see: https://www.w3schools.com/html/html5_semantic_elements.asp-->
-    <!-- <footer id="myfoot" tyle="color:red;">
-      <h1>Here is my footer</h1>
-    </footer> -->
   </main>
-  <!-- (Project 3) include your javascript file here -->
-  <!-- <script src="js/main.js"></script>
-  <script type="text/javascript">
-	//Project 3- you can call javascript functions when page is loaded here.
-    //helloWorld();  //function contained in js/main.js file
-  </script> -->
+
 </html>
