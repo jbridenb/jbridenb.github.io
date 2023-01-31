@@ -14,9 +14,9 @@ body {
 .container {
     margin-top: 10px;
     background-color: #efe0cb;
-    width: 60%;
+    width: 50%;
     position: relative;
-    left: 30%;
+    left: 25%;
     display: block;
     box-shadow: 0 0 40px rgb(0 0 0 / 50%);
     margin-bottom: 10px;
