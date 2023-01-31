@@ -12,30 +12,28 @@ body {
 }
 
 .container {
-    margin-top: 10px;
     background-color: #efe0cb;
-    width: 50%;
+    width: 60%;
     position: relative;
-    left: 25%;
-    display: block;
-    box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+    left: 20%;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 50%);
+    margin-top: 10px;
     margin-bottom: 10px;
     padding: 25px;
 }
 
 h1 {
     text-align: left;
-    padding: 50px 50px 25px 0px;
+    padding: 50px 50px 30px 0px;
     font-family: Aboreto, "Times New Roman", sans-serif;
     font-size: 30pt;
     text-decoration: underline;
-    /* background-color: beige; */
     margin: 0px;
     white-space: pre;
 }
 
 h1::after {
-    content: "\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
+    content: "\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
     text-decoration: underline;
 }
 
@@ -57,10 +55,9 @@ h2 {
 img {
     float: right;
     border: 10px solid white;
-
 }
 
-a { 
+a {
     text-decoration: none;
 }
 
@@ -77,6 +74,7 @@ td {
 
 table {
     border: 5px solid black;
+    width: 60%;
 }
 
 th {
@@ -112,7 +110,6 @@ td {
 
 tr:nth-child(odd) {
     background-color: #ccc;
-
 }
 
 tr:nth-child(even) {
@@ -122,11 +119,13 @@ tr:nth-child(even) {
 .ffxiv {
     background-color: lightgreen;
 }
+
 .schedule {
     position: relative;
-    left: 15%;
+    left: 20%;
 }
+
 .schedule h2 {
     position: relative;
-    left: 25%;
+    left: 20%;
 }
