@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Aboreto;
+    src: url(Aboreto-Regular.ttf);
+}
+
+body {
+    border-top: 50px;
+}
+
+.outside {
+    background: #efe0cb url("backgroundimp.jpg") repeat fixed top center;
+}
+
+.container {
+    margin-top: 10px;
+    background-color: #efe0cb;
+    width: 60%;
+    position: relative;
+    left: 30%;
+    display: block;
+    box-shadow: 0 0 40px rgb(0 0 0 / 50%);
+    margin-bottom: 10px;
+    padding: 25px;
+}
+
+h1 {
+    text-align: left;
+    padding: 50px 50px 25px 0px;
+    font-family: Aboreto, "Times New Roman", sans-serif;
+    font-size: 30pt;
+    text-decoration: underline;
+    /* background-color: beige; */
+    margin: 0px;
+    white-space: pre;
+}
+
+h1::after {
+    content: "\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0\a0";
+    text-decoration: underline;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: Aboreto, "Times New Roman", sans-serif;
+}
+
+.haikuContent {
+    width: 50%;
+    text-align: center;
+}
+
+.Personal p {
+    text-indent: 12pt;
+}
+
+img {
+    float: right;
+    border: 10px solid white;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    vertical-align: top;
+}
+
+table {
+    border: 5px solid black;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(120, 119, 119);
+    width: 100px;
+}
+
+td {
+    text-align: center;
+}
+
+.timeColumn {
+    width: auto;
+}
+
+.commute {
+    background-color: red;
+}
+
+.work {
+    background-color: aqua;
+
+}
+
+.class {
+    background-color: tan;
+}
+
+.home {
+    background-color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.ffxiv {
+    background-color: lightgreen;
+}
+.schedule {
+    position: relative;
+    left: 15%;
+}
+.schedule h2 {
+    position: relative;
+    left: 25%;
+}

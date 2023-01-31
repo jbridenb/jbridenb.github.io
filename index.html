@@ -15,202 +15,197 @@ the table till i found the correct patter. The only other things that i struggle
 different style things that just felt very clunky.  
  -->
 <!DOCTYPE html>
-<html style="font-family: Arial;">
+<html>
+<link href="css.css" rel="stylesheet">
 <meta charset="UTF-8">
+
 <head>
   <title>About Jacob Bridenbaugh</title>
 </head>
 
-<body background="backgroundimp.jpg">
+<main>
+  <div class="outside">
+    <div class="container">
+      <header>
+        <h1>Jacob Bridenbaugh</h1>
+      </header>
+      <section>
+        <img src="moto.jpg" alt="Motorcycle picture">
+      </section>
+      <section>
+        <h2>Personal Info</h2>
+        <ul>
+          <li><strong>Major:</strong> Computer Science</li>
+          <li><strong>High School: </strong>American Leadership Academy, 2011</li>
+          <li><strong>Current Year at UVU: </strong> Sophmore</li>
+          <li><strong>Favorite Ice Cream: </strong>Death by Chocolate</li>
+        </ul>
+      </section>
 
-  <main>
-    <header>
-      <h1>Jacob Bridenbaugh</h1>
-    </header>
-    <section>
-      <img align="right" src="moto.jpg">
-    </section>
-    <section>
-      <h2>Personal Info</h2>
-      <ul>
-        <li><strong>Major:</strong> Computer Science</li>
-        <li><strong>High School: </strong>American Leadership Academy, 2011</li>
-        <li><strong>Current Year at UVU: </strong> Sophmore</li>
-        <li><strong>Favorite Ice Cream: </strong>Death by Chocolate</li>
-      </ul>
-    </section>
+      <section>
+        <h2>Five Favorite Fantasy Series</h2>
+        <ol>
+          <li><em>The Wheel of Time Series, </em><a href="https://us.macmillan.com/author/robertjordan/">Robert
+              Jordan</a>
+            and <a href="https://www.brandonsanderson.com/">Brandon Sanderson</a>
+          </li>
+          <li><em>The Old Kingdom, </em><a href="https://garthnix.com/">Garth Nix</a></li>
+          <li><em>Cradle, </em><a href="https://www.willwight.com/">Will Wight</a></li>
+          <li><em>The Obsidian Mountain Trilogy, </em><a
+              href="https://www.penguinrandomhouse.com/authors/240764/mercedes-lackey/">Mercedes Lackey</a> and <a
+              href="https://www.goodreads.com/author/show/8686.James_Mallory">James
+              Mallory</a></li>
+          <li><em>The Empire of Man, </em><a href="https://davidweber.net/">David Weber</a>
+            with <a href="https://www.simonandschuster.com/authors/John-Ringo/1875432">Johny
+              Ringo</a></li>
+        </ol>
+      </section>
 
-    <section>
-      <h2>Five Favorite Fantasy Series</h2>
-      <ol>
-        <li><em>The Wheel of Time Series, </em><a style="text-decoration: none"
-            onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'"
-            href="https://us.macmillan.com/author/robertjordan/">Robert Jordan</a>
-          and <a style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'" href="https://www.brandonsanderson.com/">Brandon Sanderson</a>
-        </li>
-        <li><em>The Old Kingdom, </em><a style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'" href="https://garthnix.com/">Garth Nix</a></li>
-        <li><em>Cradle, </em><a style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'" href="https://www.willwight.com/">Will Wight</a></li>
-        <li><em>The Obsidian Mountain Trilogy, </em><a style="text-decoration: none"
-            onmouseover="style='text-decoration:underline'" onmouseout="style='text-decoration:none'"
-            href="https://www.penguinrandomhouse.com/authors/240764/mercedes-lackey/">Mercedes Lackey</a> and <a
-            style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'"
-            href="https://www.goodreads.com/author/show/8686.James_Mallory">James
-            Mallory</a></li>
-        <li><em>The Empire of Man, </em><a style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'" href="https://davidweber.net/">David Weber</a>
-          with <a style="text-decoration: none" onmouseover="style='text-decoration:underline'"
-            onmouseout="style='text-decoration:none'"
-            href="https://www.simonandschuster.com/authors/John-Ringo/1875432">Johny
-            Ringo</a></li>
-      </ol>
-    </section>
+      <section class="haiku">
+        <h2>Haiku</h2>
+        <p>I want to ride my Motorcycle, because it's winter and I can't: </p>
+        <p class="haikuContent"><em>Oh Motorcycle</em><br>
+          <em>Throttle twisting, going fast</em><br>
+          <em>Why is it Winter?</em>
+        </p>
+      </section>
 
-    <section>
-      <h2>Haiku</h2>
-      <p>I want to ride my Motorcycle, because it's winter and i can't: </p>
-      <p><em>O Motorcycle</em><br>
-        <em>Throttle twisting, going fast</em><br>
-        <em>Why is it Winter?</em>
-      </p>
-    </section>
-
-    <section>
-      <h2>My Personal Interests</h2>
-      <p>I like Mountain Biking. I started when i was around 12 and haven't put it down since. I recently decided to buy
-        a motorcycle this last year and have been just about addicted to riding that as I am to riding my Mountain Bike
-      </p>
-      <p>In addition another hobby of mine is reading. You probably noticed that I changed the title for the section
-        about books to be series instead. That's because it's too hard for me to decide on individual books. When
-        looking at a story i prefer to look at it as a whole.</p>
-      <p>I currently work as a data analyst. I spend most of my days coding in SQL and developing reports for the
-        company I work for. I really enjoy this but still want to move into a Full Stack developer postion.</p>
-    </section>
-
-    <section>
-      <h2>Class Schedule</h2>
-      <table border="1" cellspacing="3" cellpadding="3">
-        <thead align="left" valign="top">
-          <tr>
-            <th style="width:100px"></th>
-            <th style="width:100px">Monday</th>
-            <th style="width:100px">Tuesday</th>
-            <th style="width:100px">Wednesday</th>
-            <th style="width:100px">Thursday</th>
-            <th style="width:100px">Friday</th>
-          </tr>
-        </thead>
-        <tbody align="left" valign="top">
-          <tr>
-            <td>8:00</td>
-            <td bgcolor="red">Commute</td>
-            <td bgcolor="red">Commute</td>
-            <td bgcolor="red">Commute</td>
-            <td bgcolor="red">Commute</td>
-            <td bgcolor="red">Commute</td>
-          </tr>
-          <tr>
-            <td>8:30</td>
-            <td bgcolor="aqua" rowspan="18">Work</td>
-            <td bgcolor="aqua" rowspan="18">Work</td>
-            <td bgcolor="aqua" rowspan="18">Work</td>
-            <td bgcolor="aqua" rowspan="18">Work</td>
-            <td bgcolor="aqua" rowspan="18">Work</td>
-          </tr>
-          <tr>
-            <td>9:00</td>
-          </tr>
-          <tr>
-            <td>9:30</td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-          </tr>
-          <tr>
-            <td>10:30</td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-          </tr>
-          <tr>
-            <td>11:30</td>
-          </tr>
-          <tr>
-            <td>12:00</td>
-          </tr>
-          <tr>
-            <td>12:30</td>
-          </tr>
-          <tr>
-            <td>1:00</td>
-          </tr>
-          <tr>
-            <td>1:30</td>
-          </tr>
-          <tr>
-            <td>2:00</td>
-          </tr>
-          <tr>
-            <td>2:30</td>
-          </tr>
-          <tr>
-            <td>3:00</td>
-          </tr>
-          <tr>
-            <td>3:30</td>
-          </tr>
-          <tr>
-            <td>4:00</td>
-          </tr>
-          <tr>
-            <td>4:30</td>
-          </tr>
-          <tr>
-            <td>5:00</td>
-          </tr>
-          <tr>
-            <td>5:30</td>
-            <td bgcolor="tan" rowspan="4">CS2550</td>
-            <td bgcolor="green">Go Home</td>
-            <td bgcolor="tan" rowspan="4">CS2550</td>
-            <td bgcolor="green">Go Home</td>
-            <td bgcolor="green">Go Home</td>
-          </tr>
-          <tr>
-            <td>6:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>6:30</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>7:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td>7:30</td>
-            <td bgcolor="green">Go Home</td>
-            <td></td>
-            <td bgcolor="green">Go Home</td>
-            <td></td>
-            <td bgcolor="lightgreen">Final Fantasy 14</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <footer>
-      <p><br><br></p>
-    </footer>
-  </main>
+      <section class="Personal">
+        <h2>My Personal Interests</h2>
+        <p>I like Mountain Biking. I started when i was around 12 and haven't put it down since. I recently decided to
+          buy
+          a motorcycle this last year and have been just about addicted to riding that as I am to riding my Mountain
+          Bike
+          In addition another hobby of mine is reading.</p>
+        <p>You probably noticed that I changed the title for the section
+          about books to be series instead. That's because it's too hard for me to decide on individual books. When
+          looking at a story i prefer to look at it as a whole.</p>
+        <p>I am currently working as a data analyst. I spend most of my days coding in SQL and developing reports for
+          the
+          company I work for. I really enjoy this but still want to move into a Full Stack developer postion.</p>
+      </section>
+      <div class="schedule">
+        <section>
+          <h2>Class Schedule</h2>
+          <table>
+            <thead>
+              <tr>
+                <th class="timeColumn"></th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="oddRow">8:00</td>
+                <td class="commute">Commute</td>
+                <td class="commute">Commute</td>
+                <td class="commute">Commute</td>
+                <td class="commute">Commute</td>
+                <td class="commute">Commute</td>
+              </tr>
+              <tr>
+                <td>8:30</td>
+                <td class="work" rowspan="18">Work</td>
+                <td class="work" rowspan="18">Work</td>
+                <td class="work" rowspan="18">Work</td>
+                <td class="work" rowspan="18">Work</td>
+                <td class="work" rowspan="18">Work</td>
+              </tr>
+              <tr>
+                <td class="oddRow">9:00</td>
+              </tr>
+              <tr>
+                <td>9:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">10:00</td>
+              </tr>
+              <tr>
+                <td>10:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">11:00</td>
+              </tr>
+              <tr>
+                <td>11:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">12:00</td>
+              </tr>
+              <tr>
+                <td>12:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">1:00</td>
+              </tr>
+              <tr>
+                <td>1:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">2:00</td>
+              </tr>
+              <tr>
+                <td>2:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">3:00</td>
+              </tr>
+              <tr>
+                <td>3:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">4:00</td>
+              </tr>
+              <tr>
+                <td>4:30</td>
+              </tr>
+              <tr>
+                <td class="oddRow">5:00</td>
+              </tr>
+              <tr>
+                <td>5:30</td>
+                <td class="class" rowspan="4">CS2550</td>
+                <td class="home">Go Home</td>
+                <td class="class" rowspan="4">CS2550</td>
+                <td class="home">Go Home</td>
+                <td class="home">Go Home</td>
+              </tr>
+              <tr>
+                <td class="oddRow">6:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>6:30</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td class="oddRow">7:00</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>7:30</td>
+                <td class="home">Go Home</td>
+                <td></td>
+                <td class="home">Go Home</td>
+                <td></td>
+                <td class="ffxiv">Final Fantasy 14</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
 
 </html>
