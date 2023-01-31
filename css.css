@@ -42,9 +42,12 @@ h2 {
     margin-bottom: 2%;
     font-family: Aboreto, "Times New Roman", sans-serif;
 }
+.haiku {
+    position: relative;
+    width: 400px;
+}
 
 .haikuContent {
-    width: 50%;
     text-align: center;
 }
 
