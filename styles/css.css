@@ -38,8 +38,8 @@ h1::after {
 }
 
 h2 {
-    margin-top: 5%;
-    margin-bottom: 2%;
+    margin-top: 30px;
+    margin-bottom: 8px;
     font-family: Aboreto, "Times New Roman", sans-serif;
 }
 .haiku {
